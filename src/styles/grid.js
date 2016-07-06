@@ -1,9 +1,7 @@
 import _ from 'lodash';
-// 12 columns, whole width devided by 12
-const cols = 12;
-// percent
-const gutter = 1;
 
+const cols = 12;
+const gutter = 2; // percent
 
 const baseColWidth = (100 - (cols + 1) * gutter) / cols;
 
