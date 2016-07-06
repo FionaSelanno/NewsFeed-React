@@ -2,6 +2,9 @@ import React from 'react';
 import jQuery from 'jquery';
 import NewsItem from './NewsItem';
 
+import { containerStyle } from './styles/container';
+import { row } from './styles/grid';
+
 class NewsFeed extends React.Component {
   constructor(){
     super();
